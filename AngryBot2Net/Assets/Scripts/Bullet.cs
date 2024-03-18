@@ -9,7 +9,7 @@ public class Bullet : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        GetComponent<Rigidbody>().AddRelativeForce(Vector3.up * 1000.0f);
+        GetComponent<Rigidbody>().AddRelativeForce(Vector3.forward * 1000.0f);
         //일정 시간이 지난 후 총알을 삭제
         Destroy(this.gameObject, 3.0f);
     }
