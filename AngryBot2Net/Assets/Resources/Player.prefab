@@ -1247,8 +1247,6 @@ GameObject:
   - component: {fileID: 5185634034796440521}
   - component: {fileID: 5185634034803360885}
   - component: {fileID: 679144368}
-  - component: {fileID: 1947579425482291624}
-  - component: {fileID: 4213040604485703939}
   - component: {fileID: 475122936624635381}
   - component: {fileID: 9046260034336494686}
   m_Layer: 0
@@ -1325,34 +1323,6 @@ CharacterController:
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
   m_Center: {x: 0, y: 1.33, z: 0}
---- !u!114 &1947579425482291624
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5185634034795952105}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bb11910b7fd829846a23251d5a7c5c7f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moveSpeed: 10
-  damping: 10
---- !u!114 &4213040604485703939
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5185634034795952105}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7f82d77f0886e454aa61f518ca3e6e5d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  firePos: {fileID: 643435658}
-  bulletPrefab: {fileID: 8222332823237018225, guid: bbfb9a20b68ab4c3f830a9872b675b34, type: 3}
 --- !u!114 &475122936624635381
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1405,7 +1375,6 @@ MonoBehaviour:
   OwnershipTransfer: 0
   observableSearch: 2
   ObservedComponents:
-  - {fileID: 1947579425482291624}
   - {fileID: 475122936624635381}
   sceneViewId: 0
   InstantiationId: 0
